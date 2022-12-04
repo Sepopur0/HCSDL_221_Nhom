@@ -14,7 +14,7 @@ const userSQL = {
 		sdt
 	) => `select concat(KHHoTenDem, " ", KHTen) as name,GioiTinh ,NamSinh , DiemTL, SDT as sdt, role
 	from KHACHHANG,USER
-	where KH_SDT = "${sdt}" and associated_id=KH_SDT;`,
+	where SDT = "${sdt}" and associated_id=SDT;`,
 
 	updateCustomer: (
 		fname,
