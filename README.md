@@ -1,1 +1,1 @@
-Mở 2 terminal
+HCSDL 221
