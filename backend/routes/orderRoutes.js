@@ -31,10 +31,10 @@ router.get("/:id", authMiddleware, (req, res) => {
                 
                 items: [
                     results.map(res => ({
-                        id: res.Ma_hang_hoa,
-                        name: res.Ten_hang_hoa,
-                        price: res.Gia_ban,
-                        amount: res.So_luong
+                        id: res.MaHH,
+                        name: res.Ten,
+                        price: res.Gia,
+                        amount: res.SoLuong
                     }))
                 ]
             })
